@@ -2,7 +2,7 @@ package com.example.fcmnotification.data.service
 
 
 import com.example.fcmnotification.data.model.PushNotification
-import com.example.fcmnotification.data.remote.Constants.Companion.BASE_URL
+import com.example.fcmnotification.data.remote.ApiConstants.Companion.BASE_URL
 import okhttp3.ResponseBody
 import retrofit2.Response
 import retrofit2.Retrofit

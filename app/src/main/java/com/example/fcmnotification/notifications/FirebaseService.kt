@@ -1,4 +1,4 @@
-package com.example.fcmnotification.data.service
+package com.example.fcmnotification.notifications
 
 import android.app.NotificationChannel
 import android.app.NotificationManager

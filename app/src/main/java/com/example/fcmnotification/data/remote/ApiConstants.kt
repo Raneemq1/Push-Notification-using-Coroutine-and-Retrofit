@@ -3,7 +3,7 @@ package com.example.fcmnotification.data.remote
 /**
  * Declare all constants need to work with rest api
  */
-class Constants {
+class ApiConstants {
 
     /**
      * Server key you can get it by opening setting->cloud messaging in firebase

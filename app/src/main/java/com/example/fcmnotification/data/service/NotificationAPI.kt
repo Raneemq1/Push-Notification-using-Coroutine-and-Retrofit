@@ -1,8 +1,8 @@
 package com.example.fcmnotification.data.service
 
 import com.example.fcmnotification.data.model.PushNotification
-import com.example.fcmnotification.data.remote.Constants.Companion.CONTENT_TYPE
-import com.example.fcmnotification.data.remote.Constants.Companion.SERVER_KEY
+import com.example.fcmnotification.data.remote.ApiConstants.Companion.CONTENT_TYPE
+import com.example.fcmnotification.data.remote.ApiConstants.Companion.SERVER_KEY
 import okhttp3.ResponseBody
 import retrofit2.Response
 import retrofit2.http.Body

@@ -9,18 +9,17 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.fcmnotification.R
 import com.example.fcmnotification.data.model.Notification
 import com.example.fcmnotification.data.model.PushNotification
-import com.example.fcmnotification.data.service.FirebaseService
+import com.example.fcmnotification.data.remote.Constants.Companion.TAG
+import com.example.fcmnotification.data.remote.Constants.Companion.TOPIC
+import com.example.fcmnotification.data.remote.Constants.Companion.token1
 import com.example.fcmnotification.data.service.NotificationClient
+import com.example.fcmnotification.notifications.FirebaseService
 import com.google.firebase.messaging.FirebaseMessaging
 import com.google.gson.Gson
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-const val TAG = "MainActivity"
-const val TOPIC = "/topics/myTopic2"
-const val token1 = "Enter the token of the device1"
-const val token2 = "Enter the token of the device2"
 
 class MainActivity : AppCompatActivity() {
 
